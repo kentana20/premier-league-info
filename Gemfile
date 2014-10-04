@@ -4,6 +4,7 @@ gem 'rails', '4.1.6'
 gem 'activesupport'
 gem 'sqlite3'
 
+gem 'nokogiri'
 gem 'less-rails'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
@@ -35,3 +36,5 @@ end
 
 gem 'spring', group: :development
 
+# Whenever
+gem 'whenever', :require => false
