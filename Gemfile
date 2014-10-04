@@ -12,6 +12,7 @@ gem 'therubyracer'
 gem 'twitter-bootstrap-rails', git: 'git://github.com/seyhunak/twitter-bootstrap-rails.git', branch: "bootstrap3"
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
+gem 'turbolinks'
 
 gem 'simple_form'
 gem 'paperclip'
