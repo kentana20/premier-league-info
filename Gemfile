@@ -21,6 +21,10 @@ gem 'paperclip'
 gem 'devise'
 gem 'omniauth-facebook'
 gem 'omniauth-twitter'
+gem 'capybara'
+gem 'selenium-webdriver'
+gem 'rspec'
+gem 'rspec-rails'
 
 group :development, :test do
   gem 'pry-rails'
@@ -31,7 +35,6 @@ group :development, :test do
   gem 'timecop'
   gem 'factory_girl_rails'
   gem 'database_rewinder'
-  gem 'rspec-rails', '~> 3.0.0'
 end
 
 gem 'spring', group: :development
